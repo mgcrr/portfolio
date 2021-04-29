@@ -1,0 +1,425 @@
+@font-face {
+  font-family: rafelya;
+  src: url("https://morgane.defiweb34.com/fonts/Rafelya Carrotin 400.ttf");
+}
+
+@font-face {
+  font-family: today-easter;
+  src: url("https://morgane.defiweb34.com/fonts/Today-Easter.ttf");
+}
+
+@font-face {
+  font-family: nudo-sans-light;
+  src: url("https://morgane.defiweb34.com/fonts/Nugo Sans Light 200.ttf");
+}
+
+body {
+  margin-top: 10px;
+  background-color: #1c2833;
+}
+
+.space {
+  width: 100%;
+  height: 30px;
+}
+/* ********** menu ********** */
+#menu-top {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  height: 34px;
+  padding: 10px 190px 10px 190px;
+  list-style-type: none;
+}
+
+#menu-top li {
+  position: relative;
+  width: 200px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#menu-top a {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 20px 45px 7px;
+  text-decoration: none;
+}
+#menu-top a.lien-menu:active,
+#menu-top a.lien-menu:hover {
+  text-decoration: underline;
+}
+#menu-top a p {
+  margin-left: 8px;
+  margin-bottom: 15px;
+}
+.icon-menu {
+  margin-top: 7px;
+}
+
+.icon-menu-exos p {
+  margin-top: 7px;
+}
+.icon-menu-contact {
+  margin-top: 10px;
+}
+
+/* *********************<container>********************** */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  margin-block-end: 0px;
+  font-family: rafelya;
+  color: white;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-block-start: 0px;
+  margin-block-end: 6px;
+
+  font-family: today-easter;
+  color: white;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: nudo-sans-light;
+  margin-block-start: 0px;
+  font-size: 12px;
+  color: white;
+  margin-block-end: 100px;
+  letter-spacing: 1.2px;
+}
+
+.box-img {
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  border: solid white 2px;
+  border-radius: 15px;
+}
+
+/* ****************************Container-2****************************** */
+
+.container-2 {
+  justify-content: center;
+  padding: 20px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-family: nudo-sans-light;
+  color: white;
+}
+
+/* ******************************************<PAGE Site-web>******************************************* */
+/* ****************************Container-3****************************** */
+
+.container-3 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  max-width: 100%;
+  background-color: rgba(51, 71, 90, 60%);
+}
+.img-khalil {
+  padding-inline-start: 60px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.khalil {
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin-block-start: 60px;
+}
+.text-khalil {
+  text-align: left;
+  font-size: 15px;
+  font-family: nudo-sans-light;
+  padding-top: 80px;
+  padding-right: 50px;
+}
+a.button-khalil:link,
+a.button-khalil:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: nudo-sans-light;
+}
+a.button-khalil:active {
+  color: black;
+  text-decoration: none;
+}
+a.button-khalil:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* ******************* container-4 ******************** */
+
+.container-4 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  max-width: 100%;
+  background-color: rgba(51, 71, 90, 60%);
+}
+.img-playlist {
+  padding-inline-start: 60px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.playlist {
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin-block-start: 60px;
+  margin-inline-start: 650px;
+}
+.text-playlist {
+  text-align: left;
+  font-size: 15px;
+  font-family: nudo-sans-light;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+a.button-playlist:link,
+a.button-playlist:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: nudo-sans-light;
+}
+a.button-playlist:active {
+  color: black;
+  text-decoration: none;
+}
+a.button-playlist:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* ******************* container-5 ******************** */
+
+.container-5 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  max-width: 100%;
+  background-color: rgba(51, 71, 90, 60%);
+}
+.img-emerson {
+  padding-inline-start: 60px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.emerson {
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin-block-start: 30px;
+}
+.text-emerson {
+  text-align: left;
+  font-size: 15px;
+  font-family: nudo-sans-light;
+  padding-top: 80px;
+  padding-right: 290px;
+}
+a.button-emerson:link,
+a.button-emerson:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: nudo-sans-light;
+}
+a.button-emerson:active {
+  color: black;
+  text-decoration: none;
+}
+a.button-emerson:hover {
+  color: black;
+  text-decoration: underline;
+}
+/* ******************* container-6 ******************** */
+
+.container-6 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  max-width: 100%;
+  background-color: rgba(51, 71, 90, 60%);
+}
+.img-actuel-service-34 {
+  padding-inline-start: 60px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.actuel-service-34 {
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin-block-start: 40px;
+  margin-block-end: 30px;
+  margin-inline-start: 650px;
+}
+.text-actuel-service {
+  text-align: left;
+  font-size: 15px;
+  font-family: nudo-sans-light;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+a.button-actuel-service:link,
+a.button-actuel-service:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: nudo-sans-light;
+}
+a.button-actuel-service:active {
+  color: black;
+  text-decoration: none;
+}
+a.button-actuel-service:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* ******************* container-7 ******************** */
+
+.container-7 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  max-width: 100%;
+  background-color: rgba(51, 71, 90, 60%);
+}
+.img-caroussel {
+  padding-inline-start: 60px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.caroussel {
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin-block-start: 40px;
+  margin-inline-start: 85px;
+}
+.text-caroussel {
+  text-align: left;
+  font-size: 15px;
+  font-family: nudo-sans-light;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+a.button-caroussel:link,
+a.button-caroussel:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: nudo-sans-light;
+}
+a.button-caroussel:active {
+  color: black;
+  text-decoration: none;
+}
+a.button-caroussel:hover {
+  color: black;
+  text-decoration: underline;
+}
+/* ******************* container-8 ******************** */
+
+.container-8 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  max-width: 100%;
+  background-color: rgba(51, 71, 90, 60%);
+}
+.img-chifumi {
+  padding-inline-start: 60px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.chifumi {
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin-block-start: 40px;
+  margin-block-end: 30px;
+  margin-inline-start: 650px;
+}
+.text-chifumi {
+  text-align: left;
+  font-size: 15px;
+  font-family: nudo-sans-light;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+a.button-chifumi:link,
+a.button-chifumi:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: nudo-sans-light;
+}
+a.button-chifumi:active {
+  color: black;
+  text-decoration: none;
+}
+a.button-chifumi:hover {
+  color: black;
+  text-decoration: underline;
+}
+/* ******************* container-9 ******************** */
+
+.container-9 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  max-width: 100%;
+  background-color: rgba(51, 71, 90, 60%);
+}
+.img-chargement {
+  padding-inline-start: 60px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.chargement {
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin-block-start: 40px;
+  margin-inline-start: 85px;
+}
+.text-chargement {
+  text-align: left;
+  font-size: 15px;
+  font-family: nudo-sans-light;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+a.button-chargement:link,
+a.button-chargement:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: nudo-sans-light;
+}
+a.button-chargement:active {
+  color: black;
+  text-decoration: none;
+}
+a.button-chargement:hover {
+  color: black;
+  text-decoration: underline;
+}
